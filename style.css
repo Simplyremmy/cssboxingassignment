@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    margin: 30px;
+}
+.logo_container{
+    width: 100%;
+    height: 120px;
+    background-color: beige;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+.logo{
+    float: left;
+    transition: transform 5s linear;
+}
+.logo:hover{
+    transform: rotate(360deg);
+}
+.matric{
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 25px;
+    padding-right: 50px;
+    color: black;
+}
+.matric:hover{
+    color: blue;
+}
+.nav_box{
+    margin-top: 25px;
+    width: 100%;
+    height: 40px;
+    background-color: blueviolet;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+#nav{
+    float: right;
+    width: 20%;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: blanchedalmond;
+}
+nav:hover{
+    color: black;
+}
+.banner{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 100%;
+    height: 200px;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgb(130, 93, 164);
+}
+#box1{
+    width: 30%;
+    height: 300px;
+    background-color:  deeppink;
+    border-radius: 10px;
+    float: right;
+    margin-right: 25px;
+    padding-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(synthetic\ hair2.jfif);
+    background-size: cover;
+}
+#box1:hover{
+    background-color: blueviolet;
+    border: 5px solid bisque;
+    color: blanchedalmond;
+}
+#box2{
+    width: 30%;
+    height: 300px;
+    background-color:  deeppink;
+    border-radius: 10px;
+    float: right;
+    margin-right: 25px;
+    padding-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(hairblend2.jfif);
+    background-size: cover;
+}
+#box2:hover{
+    background-color: blueviolet;
+    border: 5px solid bisque;
+    color: blanchedalmond;
+}
+#box3{
+    width: 30%;
+    height: 300px;
+    background-color:  deeppink;
+    border-radius: 10px;
+    float: right;
+    margin-right: 25px;
+    padding-top: 80px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    background-image: url(hair.jfif);
+    background-size: cover;
+}
+#box3:hover{
+    background-color: blueviolet;
+    border: 5px solid bisque;
+    color: blanchedalmond;
+}
+.contain{
+    margin-top: 25px;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+}
+#contain1{
+    width: 45%;
+    height: 250px;
+    background-color: rgb(143, 109, 168);
+    border: 5px solid beige;
+    border-radius: 10px;
+    float: left;
+    font-weight: bold;
+    padding-right: 20px;
+    padding: 20px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+#contain1:hover{
+    background-color: bisque;
+    border: 5px solid plum;
+}
+
+#contain2{
+    width: 40%;
+    background-color: rgb(143, 109, 168);
+    border: 5px solid beige;
+    border-radius: 10px;
+    height: 250px;
+    float: right;
+    padding: 80px 30px;
+    font-weight: bold;
+    margin-top: 40px;
+    margin-right: 70px;
+}
+#contain2:hover{
+    background-color: bisque;
+    border: 5px solid plum;
+}
